@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Flask is running with git and supervisor and automated !!!!'
+    return 'Flask is running with git and supervisor and automated and without sudo !!!!'
 
 
 @app.route('/data')
