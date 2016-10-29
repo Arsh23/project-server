@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Flask is running with git !!!!'
+    return 'Flask is running with git and supervisor !!!!'
 
 
 @app.route('/data')
